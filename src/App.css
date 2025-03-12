@@ -1,0 +1,120 @@
+/* Definindo uma fonte global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Estilizando o corpo da aplicação */
+.app {
+  background-color: #f4f7fa; /* Cor de fundo suave */
+  color: #333; /* Texto em cinza escuro */
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Estilos da barra de navegação */
+.navbar {
+  background-color: #2c3e50; /* Cor escura para a barra */
+  padding: 15px 20px;
+}
+
+.navbar .nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar .nav-links li {
+  font-size: 18px;
+}
+
+.navbar .nav-links li a {
+  color: #ecf0f1; /* Cor clara para os links */
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar .nav-links li a:hover {
+  background-color: #3498db; /* Efeito de hover */
+  color: white;
+}
+
+/* Estilos dos formulários */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+form button {
+  background-color: #27ae60; /* Cor verde para o botão */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #2ecc71; /* Efeito de hover no botão */
+}
+
+/* Estilo da lista de produtos */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #3498db; /* Cor de cabeçalho da tabela */
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9; /* Linhas alternadas para a tabela */
+}
+
+table tr:hover {
+  background-color: #ecf0f1; /* Efeito de hover na tabela */
+}
+
+/* Estilo para a página de histórico de vendas */
+.sales-history {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sales-history h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
