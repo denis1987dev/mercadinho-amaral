@@ -1,3 +1,52 @@
+# 🛒 Mercadinho Amaral
+
+> Um sistema simples de gestão para pequenos mercados, permitindo cadastro, listagem, edição e exclusão de produtos e vendas.
+
+## 📌 Funcionalidades
+
+✅ Cadastro, edição e exclusão de produtos
+✅ Registro e gerenciamento de vendas
+✅ Armazenamento local via `localStorage`
+✅ Interface intuitiva e responsiva
+
+## 🚀 Tecnologias Utilizadas
+
+- **Frontend: React.js, JavaScript, HTML5, CSS3
+- **Armazenamento: LocalStorage
+- **Gerenciamento de estado:** useState, useEffect
+
+## 🔧 Como Rodar o Projeto
+
+1. Clone este repositório:
+   ```sh
+   git clone https://github.com/denis1987dev/mercadinho-amaral.git
+   ```
+2. Acesse a pasta do projeto:
+   ```sh
+   cd mercadinho-amaral
+   ```
+3. Instale as dependências:
+   ```sh
+   npm install
+   ```
+4. Inicie o projeto:
+   ```sh
+   npm start
+   ```
+
+## 📸 Demonstração
+
+! Mercadinho Amaral - Tela Inicial (https://via.placeholder.com/600x300)
+
+## 🔗 Links
+
+🔗 Repositório no GitHub (https://github.com/denis1987dev/mercadinho-amaral)
+
+## 📞 Contato
+
+📧 Denis Amaral – dennisamaraldasilva@gmail.com
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
